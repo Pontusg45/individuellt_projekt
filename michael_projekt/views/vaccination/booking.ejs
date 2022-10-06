@@ -1,0 +1,42 @@
+<%- include("header", {title: title}); %>
+<body>
+    <table >
+        <form type="radio" >
+            <tr>
+                <th>Checkbox</th>
+                <th>Time</th>
+                <th>Place</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td><label><input type="radio" id='regular' name="optradio"></label></td>
+                <td>9:00 - 15/9</td>
+                <td>Karlskrona Hospital</td>
+                <td>Taken</td>
+            </tr>
+            <tr>
+                <td><label><input type="radio" id='regular' name="optradio"></label></td>
+                <td>9:10 - 15/9</td>
+                <td>Karlskrona Hospital</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td><label><input type="radio" id='regular' name="optradio"></label></td>
+                <td>9:20 - 15/9</td>
+                <td>Karlskrona Hospital</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td><label><input type="radio" id='regular' name="optradio"></label></td>
+                <td>9:30 - 15/9</td>
+                <td>Karlskrona Hospital</td>
+                <td>Taken</td>
+            </tr>
+            <td><button>
+                    <a>Book</a>
+            </td>
+
+        </form>
+    </table >
+</body>
+<%- include("footer"); %>
